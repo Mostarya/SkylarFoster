@@ -1,0 +1,31 @@
+.jumbotron {
+  font-family: "Sofia", serif;
+  background-image: linear-gradient(to right, #F6E8FA 10%, #ff9fca, #A31207);
+  padding: 150px;
+  text-align: center;
+  margin: auto; }
+
+body {
+  font-family: "Garamond", serif;
+  text-align: center; }
+  body h2, body h3 {
+    font-family: "Sofia", serif; }
+
+.row-content {
+  margin: 2em; }
+
+.card {
+  text-align: center; }
+  .card .card-header {
+    background-color: #F6E8FA; }
+  .card span {
+    color: black;
+    font-size: large; }
+
+.btn {
+  border: 1px solid #ff9fca;
+  background-image: linear-gradient(to right, #F6E8FA 10%, #ff9fca, #A31207);
+  border-radius: 5px;
+  position: relative;
+  width: 50%;
+  align-self: center; }

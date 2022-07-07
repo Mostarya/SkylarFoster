@@ -1,0 +1,53 @@
+$color-primary: #F6E8FA;
+$color-secondary: #ff9fca;
+$color-tertiary: #A31207;
+
+$header-font: "Sofia", serif;
+$body-font: "Garamond", serif;
+
+
+.jumbotron {
+    font-family: $header-font;
+    background-image: linear-gradient(to right, $color-primary 10%, $color-secondary, $color-tertiary);
+    padding: 150px;
+    text-align: center;
+    margin:auto;
+}
+
+body {
+    font-family: $body-font;
+    text-align: center;
+
+    h2, h3 {
+        font-family: $header-font;
+    }
+}
+
+.row-content {
+    margin: 2em;
+}
+
+.card {
+    text-align: center;
+
+    .card-header {
+        background-color: $color-primary;
+    }
+    
+    span {
+        color: black;
+        font-size: large;
+    }
+}
+
+.btn {
+    border: 1px solid $color-secondary;
+    background-image: linear-gradient(to right, $color-primary 10%, $color-secondary, $color-tertiary);
+    border-radius: 5px;
+    position: relative;
+    width: 50%;
+    align-self: center;
+}
+  
+  
+  
